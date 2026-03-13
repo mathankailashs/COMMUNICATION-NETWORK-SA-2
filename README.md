@@ -83,7 +83,7 @@ Routing Information Protocol (RIP) is one of the oldest and simplest dynamic rou
 In RIP, routers exchange routing information with their neighboring routers at regular intervals. Each router shares its entire routing table with its neighbors. 
 
  
-
+![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/52c0290e7685ca540754a072f5acf9975f308da7/what-is-rip-routing-information-protocol-example-0b0fad96363f15fc.jpg)
  
 
 Working Principle of RIP 
