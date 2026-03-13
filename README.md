@@ -1,6 +1,6 @@
-ROUTING PROTOCOLS (RIP & OSPF) 
+# ROUTING PROTOCOLS (RIP & OSPF) 
 
-1. Introduction 
+## 1. Introduction 
 
 Routing is the process of selecting the best path for transmitting data packets from a source device to a destination device across interconnected networks. In computer networks, routers perform this function by maintaining routing tables and using routing protocols. 
 
@@ -14,7 +14,7 @@ Two widely used routing protocols are Routing Information Protocol (RIP) and Ope
 
 These protocols help determine efficient routes in a network by using different algorithms and routing strategies. 
 
-2. Routing in Computer Networks 
+## 2. Routing in Computer Networks 
 
  
 
@@ -34,7 +34,7 @@ Update network topology changes
  ![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/31c08e274de13c1af8e44d9ec248dfe417ace707/What_is_a_Router-Diagram.jpg)
  
 
-Types of Routing 
+### Types of Routing 
 
 Static Routing 
 
@@ -44,13 +44,13 @@ Static Routing
 
 In static routing, the routing table is manually configured by the network administrator. It does not change automatically when network conditions change. 
 
-Advantages: 
+### Advantages: 
 
 Simple to implement 
 
 Secure 
 
-Disadvantages: 
+### Disadvantages: 
 
 Not scalable 
 
@@ -60,13 +60,13 @@ Dynamic Routing
 
 Dynamic routing automatically updates routing tables using routing protocols. 
 
-Advantages: 
+### Advantages: 
 
 Automatically adapts to network changes 
 
 Suitable for large networks 
 
-Disadvantages: 
+### Disadvantages: 
 
 More complex 
 
@@ -74,9 +74,9 @@ Uses more bandwidth and CPU resources
 
 Dynamic routing protocols include RIP, OSPF, EIGRP, and BGP. 
 
-3. Routing Information Protocol (RIP) 
+# 3. Routing Information Protocol (RIP) 
 
-Overview 
+## Overview 
 
 Routing Information Protocol (RIP) is one of the oldest and simplest dynamic routing protocols used in computer networks. It is based on the Distance Vector Routing algorithm. 
 
@@ -86,7 +86,7 @@ In RIP, routers exchange routing information with their neighboring routers at r
 ![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/52c0290e7685ca540754a072f5acf9975f308da7/what-is-rip-routing-information-protocol-example-0b0fad96363f15fc.jpg)
  
 
-Working Principle of RIP 
+## Working Principle of RIP 
 
 RIP determines the best route based on hop count, which represents the number of routers a packet must pass through to reach the destination. 
 
@@ -96,7 +96,7 @@ Hop count 16 = unreachable
 
 Each router periodically sends its routing table to neighboring routers. 
 
-Steps: 
+## Steps: 
 
 Router sends routing table to neighbors 
 
@@ -106,7 +106,7 @@ Best route with minimum hop count is selected
 
 Routing tables are updated every 30 seconds 
 
-Characteristics of RIP 
+## Characteristics of RIP 
 
 Distance Vector routing protocol 
 
@@ -146,7 +146,7 @@ Hold-down Timer – prevents incorrect updates
 
 Flush Timer – removes route from table 
 
-Problems with RIP 
+## Problems with RIP 
 
 RIP suffers from several limitations. 
 
@@ -182,13 +182,13 @@ These techniques help reduce routing instability in RIP.
 
 4. Open Shortest Path First (OSPF) 
 
-Overview 
+## Overview 
 
 Open Shortest Path First (OSPF) is a Link State Routing Protocol used in large enterprise networks. It is designed to overcome the limitations of RIP. 
 
 OSPF uses the Dijkstra shortest path algorithm to calculate the most efficient route. 
 
-Key Features of OSPF 
+## Key Features of OSPF 
 
 Link-state routing protocol 
 
@@ -204,7 +204,7 @@ OSPF routers share information about the state of their links with all routers i
 
 ![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/d825be5704c920878537b9c7da088c6182851c45/ospf-operation-basic-advanced-concepts-ospf-areas-roles-theory-overview1.png)
 
-Working of OSPF 
+## Working of OSPF 
 
 The OSPF routing process works as follows: 
 
@@ -224,7 +224,7 @@ To improve scalability, OSPF divides the network into areas.
 
 An Autonomous System (AS) is divided into multiple areas. 
 
-Types of routers in OSPF: 
+## Types of routers in OSPF: 
 
 Internal Router 
 
@@ -236,7 +236,7 @@ Autonomous System Boundary Router
 
 OSPF areas reduce routing traffic and improve performance. 
 
-OSPF Link Types 
+## OSPF Link Types 
 
 OSPF defines several link types. 
 
@@ -252,7 +252,7 @@ A stub link is connected to only one router, and packets enter and leave through
 
 OSPF Messages 
 
-OSPF uses several types of messages: 
+## OSPF uses several types of messages: 
 
 Hello Message 
 
@@ -266,7 +266,7 @@ Link State Acknowledgement
 
 These messages help routers maintain an updated view of the network. 
 
-5. Advantages of RIP 
+# 5. Advantages of RIP 
 
 Easy to configure 
 
@@ -276,7 +276,7 @@ Suitable for small networks
 
 Simple implementation 
 
-6. Advantages of OSPF 
+# 6. Advantages of OSPF 
 
 Faster convergence 
 
@@ -288,7 +288,7 @@ Hierarchical design
 
 Better scalability 
 
-7. Applications of Routing Protocols 
+# 7. Applications of Routing Protocols 
 
 Routing protocols are used in: 
 
@@ -302,22 +302,22 @@ Telecommunications networks
 
 Cloud networking 
 
-8. Future of Routing Protocols 
+# 8. Future of Routing Protocols 
 
 Modern networking technologies continue to evolve routing protocols for better scalability, security, and efficiency. Advanced protocols like BGP and software-defined networking are improving network management and routing performance. 
 
-9.Routing – Real Time Analogy (Google Maps Navigation) 
+# 9.Routing – Real Time Analogy (Google Maps Navigation) 
 
 
 ![image alt](https://support-cdn.route4me.com/2024/11/5cfca6fb-routes-map-overview.jpg) 
 
  
 
-Analogy 
+## Analogy 
 
 Routing in computer networks is similar to Google Maps finding the best route to a destination. 
 
-Explanation 
+## Explanation 
 
 Your starting location → Source computer 
 
@@ -333,19 +333,19 @@ Google Maps analyzes all possible roads and selects the fastest or shortest rout
 
  
 
-10. OSPF – Real Time Analogy (City Divided into Zones) 
+# 10. OSPF – Real Time Analogy (City Divided into Zones) 
 
  ![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/333801480f3c7069e105b2a917599ca099ae6691/AQSO_tangjiatuo-masterplan_1013TMC_sector-analysis-767x474.jpg)
 
-
+ ![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/a78be13d8586f3cd97b4787e4857389184542e88/bangalore-city-zone-map.jpg)
 
  
 
-Analogy 
+## Analogy 
 
 OSPF is similar to a city traffic control system. 
 
-Explanation 
+## Explanation 
 
 In a modern city: 
 
@@ -357,7 +357,7 @@ The system calculates the fastest route for vehicles.
 
 Similarly, OSPF routers share information about the state of network links and calculate the shortest path using Dijkstra’s algorithm. 
 
-11. Conclusion 
+# 11. Conclusion 
 
 Routing protocols are essential for efficient communication in computer networks. RIP and OSPF are two widely used dynamic routing protocols with different approaches to routing. 
 
