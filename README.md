@@ -308,7 +308,8 @@ Modern networking technologies continue to evolve routing protocols for better s
 
 9.Routing – Real Time Analogy (Google Maps Navigation) 
 
-https://support-cdn.route4me.com/2024/11/5cfca6fb-routes-map-overview.jpg 
+
+![image alt](https://support-cdn.route4me.com/2024/11/5cfca6fb-routes-map-overview.jpg) 
 
  
 
@@ -332,11 +333,11 @@ Google Maps analyzes all possible roads and selects the fastest or shortest rout
 
  
 
-10. OSPF – Real Time Analogy (City Traffic Control System) 
+10. OSPF – Real Time Analogy (City Divided into Zones) 
 
  
 
- 
+
 
  
 
@@ -364,4 +365,3 @@ RIP is simple and suitable for small networks, while OSPF is more advanced and d
 
  
 
- ![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/31c08e274de13c1af8e44d9ec248dfe417ace707/What_is_a_Router-Diagram.jpg)
