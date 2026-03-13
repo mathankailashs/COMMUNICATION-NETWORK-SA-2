@@ -202,7 +202,7 @@ Hierarchical network design
 
 OSPF routers share information about the state of their links with all routers in the network area. 
 
- 
+![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/d825be5704c920878537b9c7da088c6182851c45/ospf-operation-basic-advanced-concepts-ospf-areas-roles-theory-overview1.png)
 
 Working of OSPF 
 
