@@ -335,7 +335,7 @@ Google Maps analyzes all possible roads and selects the fastest or shortest rout
 
 10. OSPF – Real Time Analogy (City Divided into Zones) 
 
- 
+ ![image alt](https://github.com/mathankailashs/COMMUNICATION-NETWORK-SA-2/blob/333801480f3c7069e105b2a917599ca099ae6691/AQSO_tangjiatuo-masterplan_1013TMC_sector-analysis-767x474.jpg)
 
 
 
